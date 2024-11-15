@@ -31,6 +31,24 @@ const languages= [
   }
 ];
 
+special.addEventListener("click", function () { const output = document.getElementById("output");
 
+  const displayText = `
+    <p><strong>ID:</strong> ${content.id}</p>
+    <p><strong>Title:</strong> ${content.title}</p>
+    <p><strong>Description:</strong> ${content.description}</p>
+  `;
+
+  output.innerHTML = displayText;
+
+});
+
+const special = document.querySelector(".special");
+
+const content = {
+  id: 1,
+  title: "HTML",
+  description: "HTML (HyperText Markup Language) è il linguaggio standard per creare pagine e applicazioni web. Struttura il contenuto web e fornisce elementi di base come titoli, paragrafi e immagini."
+};
 
 
