@@ -48,7 +48,6 @@ function App() {
       <header className="App-header">
         <h1>Learn Web Development</h1>
         <div className="btn-group">
-          { }
           {languages.map((language) => (
             <button
               key={language.id}
@@ -69,3 +68,6 @@ function App() {
 }
 
 export default App;
+
+
+
